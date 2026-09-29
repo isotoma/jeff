@@ -7,21 +7,24 @@ FROM python:3.13-slim AS builder
 ENV UV_PYTHON_DOWNLOADS=never \
     UV_LINK_MODE=copy \
     UV_CACHE_DIR=/tmp/uv-cache \
-    UV_DEFAULT_INDEX=https://pypi.org/simple
+    UV_DEFAULT_INDEX=https://pypi.org/simple \
+    UV_INDEX=https://download.pytorch.org/whl/cpu
 
 COPY --from=ghcr.io/astral-sh/uv:0.12.20 /uv /usr/local/bin/uv
 
 WORKDIR /app
 
-COPY pyproject.toml README.md ./
+RUN uv venv
+
+COPY pyproject.toml README.md docker-constraints.txt ./
 
 RUN --mount=type=cache,target=/tmp/uv-cache \
-    uv sync --no-install-project --no-dev
+    uv pip install --constraints docker-constraints.txt .
 
 COPY src/ src/
 
 RUN --mount=type=cache,target=/tmp/uv-cache \
-    uv sync --no-dev
+    uv pip install --constraints docker-constraints.txt .
 
 # --- runtime stage -----------------------------------------------------------
 
