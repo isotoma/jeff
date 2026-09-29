@@ -18,10 +18,6 @@ WORKDIR /app
 RUN uv venv
 
 COPY pyproject.toml README.md docker-constraints.txt ./
-
-RUN --mount=type=cache,target=/tmp/uv-cache \
-    uv pip install --constraints docker-constraints.txt .
-
 COPY src/ src/
 
 RUN --mount=type=cache,target=/tmp/uv-cache \
