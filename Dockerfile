@@ -8,21 +8,22 @@ FROM python:3.13-slim AS builder
 
 ENV UV_PYTHON_DOWNLOADS=never \
     UV_LINK_MODE=copy \
-    UV_CACHE_DIR=/tmp/uv-cache
+    UV_CACHE_DIR=/tmp/uv-cache \
+    UV_DEFAULT_INDEX=https://pypi.org/simple
 
 COPY --from=ghcr.io/astral-sh/uv:0.12.20 /uv /usr/local/bin/uv
 
 WORKDIR /app
 
-COPY pyproject.toml uv.lock ./
+COPY pyproject.toml ./
 
 RUN --mount=type=cache,target=/tmp/uv-cache \
-    uv sync --frozen --no-install-project --no-dev
+    uv sync --no-install-project --no-dev
 
 COPY src/ src/
 
 RUN --mount=type=cache,target=/tmp/uv-cache \
-    uv sync --frozen --no-dev
+    uv sync --no-dev
 
 # --- runtime stage -----------------------------------------------------------
 

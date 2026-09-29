@@ -15,6 +15,7 @@ data
 gen
 logs
 tests
+uv.lock
 *.safetensors
 *.pt
 *.npy
