@@ -8,7 +8,8 @@ ENV UV_PYTHON_DOWNLOADS=never \
     UV_LINK_MODE=copy \
     UV_CACHE_DIR=/tmp/uv-cache \
     UV_DEFAULT_INDEX=https://pypi.org/simple \
-    UV_INDEX=https://download.pytorch.org/whl/cpu
+    UV_INDEX=https://download.pytorch.org/whl/cpu \
+    UV_INDEX_STRATEGY=unsafe-best-match
 
 COPY --from=ghcr.io/astral-sh/uv:0.12.20 /uv /usr/local/bin/uv
 
