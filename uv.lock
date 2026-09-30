@@ -139,46 +139,46 @@ wheels = [
 
 [[package]]
 name = "ast-serialize"
-version = "0.11.1"
+version = "0.11.2"
 source = { registry = "https://packages.isotoma.com/pypi/simple/" }
-sdist = { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/4e/a2/04a9383e7512c91c54b2f34b3ff86dc7d2610506f588c2bda36e952a68f7/ast_serialize-0.11.1.tar.gz", hash = "sha256:cc5db2983805f6be786488aac8c5998d5b71965488d1b18c44d435a2205a5cb4" }
+sdist = { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/54/1e/4f6082cdd6e5a29093513e9a3eabc5ed1c5331a9a84386b2fece80a00a48/ast_serialize-0.11.2.tar.gz", hash = "sha256:976a5bd75845d22f4b52905ddf53ab669ef1b14dba7735f5512841a2ef2b5450" }
 wheels = [
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/8c/dd/16de2c0d23a6b298c735d4e4b56d86fa70476eef98e2c66ceaa65503b62f/ast_serialize-0.11.1-cp315-abi3.abi3t-macosx_10_12_x86_64.whl", hash = "sha256:a015ede631eeb098a23de8ec0cfe11a1dd02159ab7a26bdc7c6bde2befbbc7b4" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/27/f7/302d2251e6298bbeabc8a1815c9147127031517b305001a02f34fd46b6b5/ast_serialize-0.11.1-cp315-abi3.abi3t-macosx_11_0_arm64.whl", hash = "sha256:57b7d52d1f5c92905cd648bda9efc83cac33097de1e5bb68de8feca9b5f7e87a" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/93/06/93b6527646613502f364cebfb23783fa6701cdbe90761ee26144f1fa20b9/ast_serialize-0.11.1-cp315-abi3.abi3t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:e47b9b028efbc0486263a49f782ad0ae3e879855fe5a2897b59feefb78e1c40c" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/2f/ac/ffb216262c9a582d039d846081b8c3017dc368cbed5a2520deca5cb7f8cb/ast_serialize-0.11.1-cp315-abi3.abi3t-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:00adb748034c7b1938ec56925f9f6230ffcd9c56d47355fe32485df29b90b977" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/a2/06/19a4c4837c4d5e73b982938d6da3c9ae10513b61527575b3e1b8396f9298/ast_serialize-0.11.1-cp315-abi3.abi3t-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:82359d00ea808c260c327e43955c0190bb7baef152a01ae0b5c74d05387b9552" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/e5/29/2373199907b2d97feed176115308dfb3dd0446566b047009828f266d2d66/ast_serialize-0.11.1-cp315-abi3.abi3t-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:f35bb9ddeed4008c7d3e272dd1999885d712e1ce623b0a65ba8a8ed1d51c35cf" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/33/55/ab6805a1457dbe565c84f8d36e2aa4207ef22408adfd01d225823cd07484/ast_serialize-0.11.1-cp315-abi3.abi3t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:74093ed682ba58456f0d4450da7fb62b826fddd97824d44fc4a81ca6e0bf9e23" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/52/e2/4f54eab2201bb420d39bf61423abcb5d4daffd28e2270e1c5eee2bf3c0f1/ast_serialize-0.11.1-cp315-abi3.abi3t-manylinux_2_31_riscv64.whl", hash = "sha256:4dd7218870c203eff4533cfc04a39f29077d6789b20f5b746e7648fe5762a548" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/10/07/755dd98664e2374080b72ccb5fea63d9f11b4bec2409a05b2a4ebc97618d/ast_serialize-0.11.1-cp315-abi3.abi3t-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:1e8d20700766171a8a17f89cf53d7bd9712c509460d28a51f7f98340577b78aa" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/34/a0/fadbde3e108064236e2679728ce6d8247aefc81bac5fd82505b59cf69172/ast_serialize-0.11.1-cp315-abi3.abi3t-musllinux_1_2_aarch64.whl", hash = "sha256:20b3371c0403099cd55d59f4bcedb6d3994d9db3fa41711c648760a89ef2a575" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/02/fd/b4f95249bd895368ea8290668e27d1f0a5c4ad888bd72a34c7beb2a500d6/ast_serialize-0.11.1-cp315-abi3.abi3t-musllinux_1_2_armv7l.whl", hash = "sha256:cc1a78b913f8665dda145999b1b4805ad2ef442ecbe3b819512cf7f95e70498a" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/68/98/6afac594380410710d9d863b9ef41e9c6ca89bd901bda1464ee9e99180a8/ast_serialize-0.11.1-cp315-abi3.abi3t-musllinux_1_2_i686.whl", hash = "sha256:38f7141881e783bccc362d201d7fd7437934216b669b9fef39febc2f63fd2d9b" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/ae/6f/5a81b5cbf1731f4722bc90adf4b4ace7dda69ca29837844147063aeafb22/ast_serialize-0.11.1-cp315-abi3.abi3t-musllinux_1_2_ppc64le.whl", hash = "sha256:13903a3f212ab9e5d05a6c3f2337288f4f8f4c18e6ab3817417ae7a3d46dee14" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/99/eb/d9b903206cbd6d5143838367d385fa88ec49eaae2cc12f284327c6e0af05/ast_serialize-0.11.1-cp315-abi3.abi3t-musllinux_1_2_riscv64.whl", hash = "sha256:e5a9c53e64732118ae8235d0e57eb90e2333e90ff749a1a7dca6f8bfdfa5200e" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/ed/48/ee13b4079ec67e9b333a87e5bb8eee643ab1b49f7173b3fca71158c6cdf6/ast_serialize-0.11.1-cp315-abi3.abi3t-musllinux_1_2_x86_64.whl", hash = "sha256:aecb606f67f21fd1c0ffba1826470d2ee400e41b23881ad9a1b2157306865b1a" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/15/67/2175b79e1ee6b042e4bf8ed6871e60cafea7e9cf3fc69e87d7a9d520ae77/ast_serialize-0.11.1-cp315-abi3.abi3t-win32.whl", hash = "sha256:d1ef9c478d8c8ca83499704d13e5ac32c840ed7ca7884aaaf716166aca5a2806" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/f6/c3/8c96aa5f121e9bdda0346b2df3919185eb1ec9a2cce2d20e311b4575ca0b/ast_serialize-0.11.1-cp315-abi3.abi3t-win_amd64.whl", hash = "sha256:27eef0739e0110f5db1ff5dfa38b3dadfcb6f0c31975a2b412f9f2bd72139cea" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/10/bc/8aa663209e335eca73c9e1006197222b6b8dafa6665e513cdd975aa65496/ast_serialize-0.11.1-cp315-abi3.abi3t-win_arm64.whl", hash = "sha256:f9454960bbf185d33c669ccd5c9b76c96709a4542a95a65e27342c4d10dd8e20" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/7f/a7/e738887429de70350d9e25f84a95efbdd086b79579a811509dee8b02d7d5/ast_serialize-0.11.1-cp39-abi3-macosx_10_12_x86_64.whl", hash = "sha256:7b9a6089f1337838492b217707e9a55d0b9b407fe9169a960fa12282abf2234c" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/a1/f9/46b64fa883f3c8b8cf51629978f16d8a2da3d5c5c02f64add40864907703/ast_serialize-0.11.1-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:68929da7fb1c7375f69641baac9519d5c41ee441cd09a591ea5dfc83107ffe6f" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/ad/89/fe75c8d0f104a4be11cd0e23acecf129484c9ba06c7130033752d63a78c5/ast_serialize-0.11.1-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:8945557ed3015173dbf8d44184da9621add9162720acbc0ac4832b5a091b4e8a" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/cb/56/3f21c881900d8254a35195e1e962355b4d570ccd9cc193b0ba08abb81952/ast_serialize-0.11.1-cp39-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:b9cbed53bb8992b72e587dd47d0ca71703f5f715420f48ed57587c06c2fcd213" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/f3/b2/8d77be3dad1139158c59e370391f4990ea73f7f102983392272856bd3a63/ast_serialize-0.11.1-cp39-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:65c836d1ab7af65e64a1dd73de82572566e838dd27529b1124eac0ac86f35e76" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/94/2e/0675b5796c897f957fbdac6af0ebeeaa9a63cee866c1c54f1e5136ef5bf6/ast_serialize-0.11.1-cp39-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:4ab6df9898600ff45149b86c12bb5aa3359cc71843ad99ad0c924d11392469ab" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/93/c2/1749fa4efae0dc98aad3c3d29f0178e2609208c3ba34700b4551082e40d5/ast_serialize-0.11.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3eebd3dd25a81839ac7d25b5f3fb3527f6141b35eca29f63d2613fe6254307fd" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/00/14/2afc9f9d7db551f805b4d5e496946dc3dc2a703d27294ccc200b6ff07a7a/ast_serialize-0.11.1-cp39-abi3-manylinux_2_31_riscv64.whl", hash = "sha256:311333c5f58f55fc04121be2c5adffa42a19e1038a43a2cef862fdf58c45bf4f" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/c7/4a/8b2866d9d6d5d0b037d7bf2b74db6e75a66695c503248632116f24009a8d/ast_serialize-0.11.1-cp39-abi3-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:aa8d0a9f6d02e7626cdf540555bc2f5313eabe803dcca04854fc628ddf4b1058" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/47/17/73119504574f9b46610ffb718501b254c8adb727d4e43c5babc3c62d4529/ast_serialize-0.11.1-cp39-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:e209a797fdf8680d58d2e969a9ddb25058ea682f6cff59dbabc98d8aef4e0db1" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/56/f5/776bfb7a856ba0bb9bd373b76a90230fb77b1a10c987810b621ed244d5ba/ast_serialize-0.11.1-cp39-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:b391becd31e9889da438d388aac0362e3dfd222affbe45d920580c351486c787" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/c7/43/86a655170ee36a8fdce65a922b7e34040bb319eb4ec251161032343c1fc3/ast_serialize-0.11.1-cp39-abi3-musllinux_1_2_i686.whl", hash = "sha256:021afb3482d27d1dace9c8999724a13083e96c7ece785e53e418bf5df3b50e0a" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/ed/b1/015a3a156dc9bd46e9c4e4f24a939eb0b87179b1c53c9495ac6f088f13b4/ast_serialize-0.11.1-cp39-abi3-musllinux_1_2_ppc64le.whl", hash = "sha256:c1dc60251d93beff32d4147ecd4ccc518b0f022a900093f6f3021c2012416f0f" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/0e/ea/a988b70980aca3a8a3fb731901dc911fe73a456cebbc225b767bbe5490ff/ast_serialize-0.11.1-cp39-abi3-musllinux_1_2_riscv64.whl", hash = "sha256:b77d6a2267227d68d8221cfca177f8c6d9f68019f3250401d0355d2638db9fb9" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/de/15/e049b2701ddab9087d7f62448f4c2c1b1463e676baa471345cf3e4a31e1b/ast_serialize-0.11.1-cp39-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:e68ac7d7fd1a5d42a3a6d726d7cc8a7e0c9987934f11c6a5162aa2cf68e81e24" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/46/a2/23d555eb842d1397dce54fac31851e6f151e03a0ae74db389d9b39718c33/ast_serialize-0.11.1-cp39-abi3-win32.whl", hash = "sha256:ed449d786b9032a7b85fcd6c2f7f54c4cd0e1e1ad254d396805ff922096bf08d" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/1f/4a/251f3fd1b8a5549edaedf8f3ba0b9fb5060e194d3c0ed208b593fccaeff1/ast_serialize-0.11.1-cp39-abi3-win_amd64.whl", hash = "sha256:6b43f5a9b9a8dd20ba3124914e63aa7d7427de761ac849081cda403c2112fda0" },
-    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/5e/b5/08e2f643feb9e4d72d42a484949ad51238b18262a01c7036196c201cc330/ast_serialize-0.11.1-cp39-abi3-win_arm64.whl", hash = "sha256:a579ea6f473aab3958a64734194b22fbaec108ec45d994c28d3bd721e1e1da32" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/0b/55/a1962188abf0e62d84d55892bb044347e434711763b9a1d4ad867a70c1be/ast_serialize-0.11.2-cp315-abi3.abi3t-macosx_10_12_x86_64.whl", hash = "sha256:ab924ba260efd7509492f272d4e236d24564033f20c005d7c63a107c6a76fc85" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/2a/ad/439c2959150718446af76fbe2f4000f35eba9869ef8564f3d9a3d0b1c370/ast_serialize-0.11.2-cp315-abi3.abi3t-macosx_11_0_arm64.whl", hash = "sha256:a586be418eb70a9f1396cea29ddac8f4b9bf277fb73ea2340db31e218bc00f32" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/6d/d8/2c6542fc3e7c56a0a25d8d12d034d5a2d2e1900e292567b1c1dca8e83124/ast_serialize-0.11.2-cp315-abi3.abi3t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:8532f20916fa3189d4d785ef2a62d93c4d651ec9c5bffda66d2fc36898351f34" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/fa/ad/6f6755cd0842db46c3b10b1e4735f14aad78d71dea4753eb46933101711b/ast_serialize-0.11.2-cp315-abi3.abi3t-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:ee732ae167e686d1d3c00f98d7d82b23138304694f0441b14d7ddf9c0f8a921c" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/03/40/5da672f5dd23fb7dc0c884c97711e56a3540f2fe3c4355a81f8beb385911/ast_serialize-0.11.2-cp315-abi3.abi3t-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:75a1c7f46b9c19fc0ae01ca6fd076301628faa2ed7a8edbd55c6353c483946a3" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/df/c7/2bb25684f697801eb72866fdb94ed5edbff3867ce878b0e542a4a5b9dab9/ast_serialize-0.11.2-cp315-abi3.abi3t-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:2fdf31a0bb85ea2575cc91669f005e6647d2efed491231c4dc1497bc9a5b3aa6" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/d8/85/754681846f26e0ff1da729b1ffe3171e93c22f0aa6ec3cea5b14e3703846/ast_serialize-0.11.2-cp315-abi3.abi3t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3b78e6fdef3b06c86ed263e1962fee5a7b9d2d158e738b212d13b2c605ee12f5" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/fb/dc/f5521d8cb44b69095c3982ae3658a12c403e0efa19e51aeb9c8a79dff60c/ast_serialize-0.11.2-cp315-abi3.abi3t-manylinux_2_31_riscv64.whl", hash = "sha256:8d62a47714c8bc432b9fabcc29989c815c5da17327d35151f2fd0d85c2a7a5ff" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/73/0d/649182c7fd7c4f782279bed514de2dd67e48a5afecb605a098d64fdc01fd/ast_serialize-0.11.2-cp315-abi3.abi3t-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:8a5ffa70e76191dcf240d3c43e20c93b3bfd26f54d89148c762d57837f5bcd2c" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/bf/cc/aff4d84c16afa742d13a75384127c7d24594dc8c304f0558a15924fd51af/ast_serialize-0.11.2-cp315-abi3.abi3t-musllinux_1_2_aarch64.whl", hash = "sha256:bfbe47a3a7c368f28836e78b2440a3643ac0ec4c67d9fe53588e1448f0a3d35d" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/94/a7/891cbec2e5e0d7159196159d3ff0646622f3120ff4576c839ac2dd56c719/ast_serialize-0.11.2-cp315-abi3.abi3t-musllinux_1_2_armv7l.whl", hash = "sha256:7f1823275b246f9c7d373be6879e4eec09686948895d4ad083f4b27fd7e4da70" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/45/c4/2c8c4498340ea9aff87a9fd408309aa25d56dd51d7bbddfdb46a3c31424a/ast_serialize-0.11.2-cp315-abi3.abi3t-musllinux_1_2_i686.whl", hash = "sha256:57c0f5cb0021a5beb1e5e4d6e840ae2f23a28909703ef4d256a144cc1ad3d437" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/0d/8b/c5d4e5226fa18885fe17f949aee3ab1aeb8389c384d946ec1b7c9489cc94/ast_serialize-0.11.2-cp315-abi3.abi3t-musllinux_1_2_ppc64le.whl", hash = "sha256:cd320a5c4f1f2742af97eea22954f776379175c5ef2504801e9a155f2ff9a4d7" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/73/d6/1d2ca472586f9e3416a289a22f36eeb6dd6f47d77b1a4aba358405babbc7/ast_serialize-0.11.2-cp315-abi3.abi3t-musllinux_1_2_riscv64.whl", hash = "sha256:13b13afe32e845c86a573497729e1b7ddeb26c572c78bf50ece51da23b8fad5e" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/0e/16/d3703a7c1e3c76b144ac9349a54d3926d0749918a8dc13a66cede208b8ec/ast_serialize-0.11.2-cp315-abi3.abi3t-musllinux_1_2_x86_64.whl", hash = "sha256:9d80a81ec84660422579bdb8e789f656a794b48c7a1ae1261f6bd8bc1897d17d" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/2b/e4/d974e55c2e247ef26ed1df01c74940583db9a5b3a8bcaad5732c6e2047fb/ast_serialize-0.11.2-cp315-abi3.abi3t-win32.whl", hash = "sha256:af8c003ce721b0099dd55cef4ba733500fc3054ea0cc8565d8957aaf7cccdeb4" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/0d/00/d229443488e095054d5e0c0cc20689a2633b899d735849ff1b2c8e4f0cbf/ast_serialize-0.11.2-cp315-abi3.abi3t-win_amd64.whl", hash = "sha256:554d117cb916d8032d85007c654d179efbbfd446174c048062778136a922944f" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/11/75/389fc1a6cfa0c4b2ce522f47d8401329d8bb11732e516d46465960fef1d9/ast_serialize-0.11.2-cp315-abi3.abi3t-win_arm64.whl", hash = "sha256:d60515335750d431e462af6e722bb55720a5e7827192777bddfd9c4376065a4d" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/b1/54/f67120006fc73a55b6d057d4662d061fbb4eceafce3047c76ca8b382eb11/ast_serialize-0.11.2-cp39-abi3-macosx_10_12_x86_64.whl", hash = "sha256:daadf1c3e0224621607ffe16f1379e4bd372271ed2e1db8a67878f0bab3ef7e4" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/9a/7e/8f2ab68bddbe58a66fbbaad87beeae3e7d7edddb17263d1fc423936cf34d/ast_serialize-0.11.2-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:1844ed9a487fb3de7325c52ddb33f2918b66b65cd54d3f8d83d23785ffe99fa4" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/d2/1b/8a69ab68f4c1603819f0481d756abdd8caf27cec7f1d77caa71007ebe997/ast_serialize-0.11.2-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:b17869f4ba261a5fa468a753328a548f4dbaf74b4eadae9e28aff66df7f1425b" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/d1/ce/872f2e00f0467c289e483f0a34543463347243a2d0632748d89fcee5e0dc/ast_serialize-0.11.2-cp39-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:feb16d9c2a720e0120c58dd5d6e7b3c7c86b43249b60a3bc212bcb8fa031e2dd" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/3a/82/36277c12af861c64b375c316135d8feffe3f400568463a8d2b2de4c2c4fb/ast_serialize-0.11.2-cp39-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:f3109fe4805384effc8d0f8e41fbf875aa8f389af91b4348c1cfb60ea6e4cb82" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/b0/d7/ec643df91cea8bcbcb4e8011d6a8b08e5119b84f9554879f3e3c786d29d1/ast_serialize-0.11.2-cp39-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:abdb3e49ba053c3486ac1263bee9f16cc9a4a8abd9f8c90bfc21e3669f3ad9d1" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/04/6f/4c992cd7841ba589fefb14ddc9aff2f6db7f2a615d4074f9ad04115b5ce0/ast_serialize-0.11.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a7004ba572f09be34342ccb98dcd4bad5707d3d81adc8cb4c3f685d2a2c51bbc" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/d5/e3/22aaa209c231a83cfea004fd67dee7a7a54da3f169c6c460b14b96887385/ast_serialize-0.11.2-cp39-abi3-manylinux_2_31_riscv64.whl", hash = "sha256:59c25f47524efa052971b860e128b1add0c94ede7dd16b2962952c85c3582365" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/c1/f7/d4685fb54d10108ce44d3bc893ef670854d61645d47ed96d73524db90c23/ast_serialize-0.11.2-cp39-abi3-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:f3a367e0e05ed2d1b747ceb07aa728a8c204cc008b589127e9bd4f40053d7575" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/42/3a/250643ffad02bda520c50a9a5f02a5d43259a06f34ce393c91761d134d7e/ast_serialize-0.11.2-cp39-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:00bbf1f6669f813b48925b759f7ae4591067d456d443924055cab386e7e0a719" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/c7/da/af66a646b9b7f8fdec95ce83fc7b1fe538b06864bc79bd554ac4fae2e6ea/ast_serialize-0.11.2-cp39-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:ec1c20f89c3e0d83576e3c06f79375ce936266591fe0d5fd969914af3185cbaa" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/34/82/77a9714564b9e8800087a8afec41527c65c39e49282baae2ac847b9c1c6a/ast_serialize-0.11.2-cp39-abi3-musllinux_1_2_i686.whl", hash = "sha256:c58bb119b73657fdc5569692f316e1e25ca114bd62f7782eb527c6be438ba3a9" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/65/06/fa77b52f46b9bd6dcd8ff2b880e3781f8c1a316bb1342bc3de92907c6f96/ast_serialize-0.11.2-cp39-abi3-musllinux_1_2_ppc64le.whl", hash = "sha256:f739e0b601be7300c5697a2573d9200bd1db74b34ab111ef9537b9d5dcd7f106" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/e1/09/239c83153c7e0798e5867d6909cb06f53dccfef02f6999c8e2e21ecb98c3/ast_serialize-0.11.2-cp39-abi3-musllinux_1_2_riscv64.whl", hash = "sha256:cae5addfbb54cc1d47fe947ef9138e9d83849ed1cbc72b819cf36d96a2315b07" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/2f/eb/6108fb9a43fc7ab5529856e38e33c6e3e064fbfe375fdcbb208c7cd5438d/ast_serialize-0.11.2-cp39-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:2fa3be25f7f5351b1b39c9f8a52779b2dbf21199efbae564b4746422e8edca4e" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/8a/82/60367e58ef346a41ebc90d3f28593c1b8f5c2cb5314c7b2bbd98910ee131/ast_serialize-0.11.2-cp39-abi3-win32.whl", hash = "sha256:d70556a2f9230a44c99a655774cde823f056efc34466eabfb4085f0cb1ea9f99" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/23/bf/b419c3205ce1143ba7c69baef4f0ba43c14d8712113bf34f9e0d27d609be/ast_serialize-0.11.2-cp39-abi3-win_amd64.whl", hash = "sha256:b9065dd23131a23b41f5bab3bf4e9b3c350a3fe8e36e8200eded9b729fcea484" },
+    { url = "https://packages.isotoma.com/pypi/files/ast-serialize/packages/91/a7/c8bbb2173f7a7131b3b2412035b2d814ab5ef2ce9799bd06f07c451640e4/ast_serialize-0.11.2-cp39-abi3-win_arm64.whl", hash = "sha256:dab599cbdcb7b45b18c41fad746645580b3a24357082b7f0e8921cd373804f27" },
 ]
 
 [[package]]
@@ -297,6 +297,12 @@ wheels = [
     { url = "https://packages.isotoma.com/pypi/files/charset-normalizer/packages/f0/a7/920baf467bfd9bf689f3b318340f37aee4572a71f162bd8db51da55ba4fa/charset_normalizer-3.5.1-cp37-abi3-win_arm64.whl", hash = "sha256:87e4f41d375c0b9be2fb5251aee4b8a689169e134535aed81bf085c3b647451e" },
     { url = "https://packages.isotoma.com/pypi/files/charset-normalizer/packages/cc/61/d01fc49b8dea277640b55a9e15960dbca9fdc8c9fde18e572d39c59f4019/charset_normalizer-3.5.1-py3-none-any.whl", hash = "sha256:6df0ec430f9a831772c23ca5a224cba36517a58a84bb32c32bb59a9fa67c47f6" },
 ]
+
+[[package]]
+name = "chess"
+version = "1.11.2"
+source = { registry = "https://packages.isotoma.com/pypi/simple/" }
+sdist = { url = "https://packages.isotoma.com/pypi/files/chess/packages/93/09/7d04d7581ae3bb8b598017941781bceb7959dd1b13e3ebf7b6a2cd843bc9/chess-1.11.2.tar.gz", hash = "sha256:a8b43e5678fdb3000695bdaa573117ad683761e5ca38e591c4826eba6d25bb39" }
 
 [[package]]
 name = "click"
@@ -846,18 +852,10 @@ name = "jeff"
 version = "0.2.0"
 source = { editable = "." }
 dependencies = [
-    { name = "accelerate" },
-    { name = "datasets" },
     { name = "fastapi" },
-    { name = "flash-linear-attention" },
-    { name = "httpx" },
     { name = "huggingface-hub" },
-    { name = "imageio-ffmpeg" },
-    { name = "kernels" },
-    { name = "matplotlib" },
     { name = "numpy" },
     { name = "pillow" },
-    { name = "python-dotenv" },
     { name = "safetensors" },
     { name = "torch" },
     { name = "torchvision" },
@@ -866,8 +864,17 @@ dependencies = [
 ]
 
 [package.optional-dependencies]
+chess = [
+    { name = "chess" },
+    { name = "zstandard" },
+]
+cuda = [
+    { name = "flash-linear-attention" },
+    { name = "kernels" },
+]
 games = [
     { name = "imageio" },
+    { name = "imageio-ffmpeg" },
     { name = "vizdoom" },
 ]
 mac = [
@@ -879,36 +886,51 @@ dev = [
     { name = "mypy" },
     { name = "pytest" },
 ]
+train = [
+    { name = "accelerate" },
+    { name = "datasets" },
+    { name = "flash-linear-attention" },
+    { name = "httpx" },
+    { name = "kernels" },
+    { name = "matplotlib" },
+    { name = "python-dotenv" },
+]
 
 [package.metadata]
 requires-dist = [
-    { name = "accelerate", specifier = "==1.15.0" },
-    { name = "datasets", specifier = "==5.0.1" },
+    { name = "chess", marker = "extra == 'chess'", specifier = "==1.11.2" },
     { name = "fastapi", specifier = "==0.141.1" },
-    { name = "flash-linear-attention", specifier = "==0.5.2" },
-    { name = "httpx", specifier = "==0.28.1" },
+    { name = "flash-linear-attention", marker = "extra == 'cuda'", specifier = "==0.5.2" },
     { name = "huggingface-hub", specifier = "==1.31.0" },
     { name = "imageio", marker = "extra == 'games'", specifier = "==2.37.4" },
-    { name = "imageio-ffmpeg", specifier = ">=0.6" },
-    { name = "kernels", specifier = "==0.16.1" },
-    { name = "matplotlib", specifier = "==3.11.2" },
+    { name = "imageio-ffmpeg", marker = "extra == 'games'", specifier = ">=0.6" },
+    { name = "kernels", marker = "extra == 'cuda'", specifier = "==0.16.1" },
     { name = "mlx-lm", marker = "extra == 'mac'", specifier = "==0.31.3" },
     { name = "numpy", specifier = "==2.5.3" },
     { name = "pillow", specifier = "==12.3.0" },
-    { name = "python-dotenv", specifier = "==1.2.3" },
     { name = "safetensors", specifier = "==0.8.0" },
     { name = "torch", specifier = "==2.14.0" },
     { name = "torchvision", specifier = "==0.29.0" },
     { name = "transformers", specifier = "==5.17.0" },
     { name = "uvicorn", specifier = "==0.52.4" },
     { name = "vizdoom", marker = "extra == 'games'", specifier = "==1.3.0" },
+    { name = "zstandard", marker = "extra == 'chess'", specifier = "==0.25.0" },
 ]
-provides-extras = ["mac", "games"]
+provides-extras = ["cuda", "mac", "games", "chess"]
 
 [package.metadata.requires-dev]
 dev = [
     { name = "mypy", specifier = ">=2.3.1" },
     { name = "pytest", specifier = ">=8.4" },
+]
+train = [
+    { name = "accelerate", specifier = "==1.15.0" },
+    { name = "datasets", specifier = "==5.0.1" },
+    { name = "flash-linear-attention", specifier = "==0.5.2" },
+    { name = "httpx", specifier = "==0.28.1" },
+    { name = "kernels", specifier = "==0.16.1" },
+    { name = "matplotlib", specifier = "==3.11.2" },
+    { name = "python-dotenv", specifier = "==1.2.3" },
 ]
 
 [[package]]
@@ -942,25 +964,25 @@ wheels = [
 
 [[package]]
 name = "kernels-data"
-version = "0.16.1"
+version = "0.16.2"
 source = { registry = "https://packages.isotoma.com/pypi/simple/" }
-sdist = { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/3d/9e/333c2e3a2037554d813b140a6aa4181ac869ca64b3494675617b9520bbc9/kernels_data-0.16.1.tar.gz", hash = "sha256:7dc804a5f5f2b8903a2f07d96f6c8c428a539d5da26c7f91e9687a38e19b3f12" }
+sdist = { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/bc/31/b09b168a30a31de97b824661e02cc89d295ffd85fe50635c0192a4f189d8/kernels_data-0.16.2.tar.gz", hash = "sha256:c45c88b8c49b8d8130615b5ea78b51621b5c5c94ea47c902d6002750abe6108a" }
 wheels = [
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/ab/f4/1ab7cb4d18ffbe3c81f2d4159c008d5c24ca4407feb5f4d760f4d08045a3/kernels_data-0.16.1-cp38-abi3-macosx_10_12_x86_64.whl", hash = "sha256:c7fbcff639a1fbd7dbc8d72fdd7a098ddffcda365248f6da1b8ae3a00162f63f" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/88/01/d6bb6a632adf692f23414b40c05c6fb56ccd7cf595d8fcfeb6554cd19136/kernels_data-0.16.1-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:90f17937ecb3cf1d4d6f9aec0468d7ddaf3e8f2eba33454f71ceac31be90912a" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/12/a2/34be2d96789045fea08631f88549ebb034957cce6424d98c396c424bb13b/kernels_data-0.16.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:86513df740800cf9bd67fcfc5d34914dd519260c5213bf20dc5dbc51c729329b" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/9b/aa/1546bb09fff7f43352e125be107a881129bce3975351e1d9c9da4564de27/kernels_data-0.16.1-cp38-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:09f3fe1b03b6260adb6c87d98b3d2c2c1e346856aedb6f3ddb6ad619889f6c1c" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/14/2c/0affff22463cbd413947c463ad1b075abb269d6af59627f24d41f50ee678/kernels_data-0.16.1-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:181563543d01cab600a67ea7568a8152688b6b5f6be04084384d475ec3e7a8a1" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/4c/59/8e820b89dffdfb52fda0073d7b7547918e902e3d5e3bda58ae007f9bd622/kernels_data-0.16.1-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:2b4a9a56bde8eaf552a7f8cbf7042ed1cbf00206cc3cb8847a45a7df6a49599f" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/2c/a4/57615503e291a39db86f788a91397951d3bbc329c3415761c951469cfb3d/kernels_data-0.16.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7d8627c4572bf501b4b6f1cbef4d89a9aca5821fd206a1388ea383a197892dac" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/dd/88/5a2c4d4c5068ee059d17d2c6e77701c714fe7ecaadc9cb45514aa70bc88c/kernels_data-0.16.1-cp38-abi3-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:cfe4264b634ff8fe5cbf73f0adbafdbb561c0df0d2045d0598afa39b6289a6b4" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/25/ef/59980c1895270aab8a0877ef9d1984b1538adb60095b2e58105f67af350b/kernels_data-0.16.1-cp38-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:a6a177a8af486c82352bdcd9594e0df15704f51b60f35f6a4819f22e2f7ea893" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/38/cf/560ea76b3d18e8b4528940ca108b335a91b7749e83aae20a8ffc2c8b98e0/kernels_data-0.16.1-cp38-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:1da3e03adf9507cadb35efae16c1d8f2320f0879114bafa30aa561acb7ccc18e" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/3c/f5/60c3bf88fb1e7b45b91d88f69bd2c75e10109c8a90557ffc06ef5b409361/kernels_data-0.16.1-cp38-abi3-musllinux_1_2_i686.whl", hash = "sha256:52a49825a108dae9c9f313fc79b29c130e192e0c0fb9e1cdd111093e8d79fbe5" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/27/35/ab4f8a52fc94e6265f3f69bc0f5c1bd66409a8a098ae9541d56cafad42be/kernels_data-0.16.1-cp38-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:04d3899b24eb9e28634705ec2b576f84bc318602357abaf314fb8b866dc1b529" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/0a/e5/99e4b11bff0d0e62f9099669cdc6c773cbfc8eaa3dda8e9e5cb973e7c4f6/kernels_data-0.16.1-cp38-abi3-win32.whl", hash = "sha256:c77f6d4070ff7abf3001fcd257afbb1ff6f4a24ac3be4e57af29462cfed44f7a" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/c3/c7/760129f0b665024e817a07c3620267760b111a8e26712af624f74df0ca38/kernels_data-0.16.1-cp38-abi3-win_amd64.whl", hash = "sha256:504efd49c72bc8c96b881020c835c593ab34639310361f14ce4a514e24daaa97" },
-    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/dd/3c/bd2a8f716e3bb4f4f448e4d36bf4b62962fe0d2870d9a0942ab8b9144ad0/kernels_data-0.16.1-cp38-abi3-win_arm64.whl", hash = "sha256:4e2b77105af19cdca3138988719bcc9132cb8f7c25ee3ce59c88d26c03f916fd" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/20/98/23e0b950ef2ff8bc3a5ee52789d467cfaa637320c7b5c4830d60344d3838/kernels_data-0.16.2-cp38-abi3-macosx_10_12_x86_64.whl", hash = "sha256:c65bef1cfd2073c9ae504926a109f17641ee2759035dedcd601db59c29dcf5a4" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/ff/08/e4d9ce1fe6349ea5a544fad2f31179332ff5170b3d9beb3a14630e9f26f4/kernels_data-0.16.2-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:a08bf4eb36ae81704fdd851e77c5add8fd069c1f724f19e0d137f2638fb718f8" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/06/98/6a3b38326f432aae8ce2a70db0078a7b3ce2278a5ef89cbd5eed7b6b7402/kernels_data-0.16.2-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:cceb236e4123573653a679b134038496daf86c5375168c6798c954f7cad4a06f" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/a4/22/3731e266caa3928a7031df9a2ae4bd349e999f0014f4fe7cbae83d2ddba2/kernels_data-0.16.2-cp38-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:670f5934830da17679e5f2f3776599629de0828252199b01b2954aa10e90baf3" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/ca/96/736fc2010126c7f050daa3f79bb47df2042427538c5de65fb2729d586eeb/kernels_data-0.16.2-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:bf925dbd1046515e0eeeee310a2d1f516304ad6c1e4cbf37e50edad064e1bddd" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/3e/1c/0b3d6ea9f68e2154d7506fdca55c1263c18e69bb7192bbabb3c11361fa16/kernels_data-0.16.2-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:193e7ba92fede87bb55b5dace305b24998c453085443a03e448ee71b12aaa7f5" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/d4/07/f0ffdefaaa46df69b7ec2710c65ad8cd03200f0898e188cb9c96d1acfee9/kernels_data-0.16.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9526362517c7b128f7baec080301890875cc3f5284a0f125b082c19737e5c1d5" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/e1/21/76d05a51352afd3ec2f9c0f7ca226171ebdcb205bcbd295e9c01bf50d3bb/kernels_data-0.16.2-cp38-abi3-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:afb953a34b34f6b958fc2fc90b3a3f6008c2f74b810775d250e8f6b9c9fcca93" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/32/8c/fc8ce4d0951d2b049ed3b7b97362f75a63f804bc095982430b2c50b7aa95/kernels_data-0.16.2-cp38-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:db2dfdcb66588cbb8aad1f47be06d3861b6edcec7f81ee97cbd91e450c8c0412" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/b2/f4/504074eda2f175e2e64b1956524d111fab84a3e7e7e442f4fe9b344a9d15/kernels_data-0.16.2-cp38-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:0804a8a26892139645f83d3edd38e7c1481dc138319af0596ef2a11f9ab3277d" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/4e/1f/a9828ba44adaf125868239cb9594ff405b13861969e37f615a3730ededbf/kernels_data-0.16.2-cp38-abi3-musllinux_1_2_i686.whl", hash = "sha256:e3597d2644d8464c17918f0350692f3176be510626aa139d090a1d06aeb6a693" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/f0/42/627e2589f5fd0116b8a3a01ad4f651133ba5af9f91b3d49c3d83a1c1a6b3/kernels_data-0.16.2-cp38-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:d50502de4a256fbc8358693856728f34db08113d4c014fddb3631419dce808f0" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/e5/c1/316bb200d605bd3053758af58c9bf8e62f752e1e3711f9ab291688e90e36/kernels_data-0.16.2-cp38-abi3-win32.whl", hash = "sha256:fb4cadb0d7b0d78049b9c9a02bf6db70ca87368d6208c34e6aa89b917da0d571" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/7d/41/cbbe06bcf9720d5ff16c9c0a09c25bc1d44f83779ee4b5f38fd3cc7784d5/kernels_data-0.16.2-cp38-abi3-win_amd64.whl", hash = "sha256:955c6dfb065b11c311111e0fd59c91b8ce2c32a6fe78fe6dcfab856fd60d4061" },
+    { url = "https://packages.isotoma.com/pypi/files/kernels-data/packages/01/d7/cf03b81e15b6c67ad919ddddd77b9b1126e324939ded03dcb2f98d7f611c/kernels_data-0.16.2-cp38-abi3-win_arm64.whl", hash = "sha256:3c8839dd192a0dcdd4454c65ce15194b83c67c9f0eda15509569d512feb4ff86" },
 ]
 
 [[package]]
@@ -1974,25 +1996,25 @@ wheels = [
 
 [[package]]
 name = "rfc3161-client"
-version = "1.0.8"
+version = "1.0.9"
 source = { registry = "https://packages.isotoma.com/pypi/simple/" }
 dependencies = [
     { name = "cryptography" },
 ]
-sdist = { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/18/a6/cf05ce2b73da1e7c876c8992035bcbede938483f16ad04f0bda34c39b299/rfc3161_client-1.0.8.tar.gz", hash = "sha256:4bda5a2bc6947c16b6f8df90ff0e99cb333d78ab1465517f637d313d75703651" }
+sdist = { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/56/53/e2f526fb6957023180c928448e2dd71b03b35038c315aed2d12d9a77c3af/rfc3161_client-1.0.9.tar.gz", hash = "sha256:66997415086d2c6e5d57a2d315157b32a9c3f4f1312877ca8eb55e2e0ddf8ce4" }
 wheels = [
-    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/ca/0a/a06fa0af9676fa8ae6962def859cb1966fb1caf0be507d5abcc22994ca13/rfc3161_client-1.0.8-cp39-abi3-macosx_10_12_x86_64.whl", hash = "sha256:3951db9573e4f6b4a1a62ad4f0074683610714625bf50c010739ffa568f23beb" },
-    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/38/59/62123806432e3fa42c06e74ee66b0dbdce66fa5cc0582d478de4ef6934e3/rfc3161_client-1.0.8-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:4bdb12618f98ee634d3625208f4f1c3cdde2306a8187a7416bfa47d45cad3dba" },
-    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/8c/d6/64bf6b0af601e3a532d1800180058088a086bca6bd8119acd576dba3c8b7/rfc3161_client-1.0.8-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:29cebab8dadec88b85eac43505db186749e23ddf1c7699ffa08f7cbdc86a52fe" },
-    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/59/66/b739e4c8778e8221eb58e09de47543fa07da039204ef2c87d3aa6e3ec4d4/rfc3161_client-1.0.8-cp39-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:38c5c278c7d4605e9c166a332c13b286475730b750109235b547f7d1b21c5c6f" },
-    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/03/2b/fdbcf18d362eb7e149d4a6552ccb3e2c8c40d058cb8a44b2f305d6f16a2d/rfc3161_client-1.0.8-cp39-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:9826227dc04e1a86f2598f9c1829f078afc35f558987df77578ea1508d1460a1" },
-    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/ce/f5/6e0775d3219d791cac11e30b5a3071d62a2a7fe21bbfffa801903a15ab12/rfc3161_client-1.0.8-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:55cd9366f20dcea8dc65f93b08d12607c071015d2f5b5d24129128f04643a77d" },
-    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/a4/f1/99638e03afae594418f9e9c27aeb189fe6dabc3d853cd48b36a1cf61e0a4/rfc3161_client-1.0.8-cp39-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:e95ca8a64fddfdd639e09e48bab4722f31b26ce099067ad2bb8e85f88fcc707b" },
-    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/ee/a6/d5f7964d180b6ecf659d989d3474edaa7ef721a0038562b226ec89fc8811/rfc3161_client-1.0.8-cp39-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:7f8b82c97c1935a09376591b45bd81aa57a4232f4d446eee3a44c025ef7c4d5a" },
-    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/23/fa/ad5e2a354d01d2f1cedaa5ea24548f7cf71cef427715bf3104f3f81c461d/rfc3161_client-1.0.8-cp39-abi3-musllinux_1_2_i686.whl", hash = "sha256:51adc82dbd04d2b88e3a17f524f0e57d0270d7276887a5800c81833f79fb4f4a" },
-    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/5d/49/141ecbee41a7cef5d819ad692305d99775af3ecb5b145d323dfd8458f32f/rfc3161_client-1.0.8-cp39-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:d3c25311c67a7daeef990fb5b94eaed706135c6a6fd98c6e382bbc857faa4214" },
-    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/65/53/0de416266baddfac030b80602a8034e0133673deb18d4934623f78087d44/rfc3161_client-1.0.8-cp39-abi3-win32.whl", hash = "sha256:9d382372e7fdfde592584f985fb1063d1506ae0573df45fcb2b41e2ed82e3431" },
-    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/76/57/da3c2f7784d1e7b7c48f8ce2e391314f6e50a14f5eb1a9d9460bb7b4fc8e/rfc3161_client-1.0.8-cp39-abi3-win_amd64.whl", hash = "sha256:5c1889d6bae269dc0f1e418f82e554b413066b5f8dd864f9367cf1ffb3d0a312" },
+    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/92/2c/b81b822bc067647aa291dc4ea71f052f994344934fc84d499759aec64cf8/rfc3161_client-1.0.9-cp39-abi3-macosx_10_12_x86_64.whl", hash = "sha256:5e619d7e28ffa3a46685923e6d6ba4ce2e74cb09a41c77995a0702cc1a533bc4" },
+    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/88/cf/bcfb66eaeccdc076457451a6213360c840bcacd0e938e8507951be29373f/rfc3161_client-1.0.9-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:a7004edfbf1bb7ec7801978a39fa7a7fe385ca59673df90d7578079b6eba3b24" },
+    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/8e/f3/4b69d47fd7f79238bf8db20902a30d28c908efc0d906fb57abcc89ac75e3/rfc3161_client-1.0.9-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:7b703b233dbee7228d117d5f1c118363c61d523fa6f018c9217c79e3c6684f86" },
+    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/33/49/154c3e80ac94e51b9d1097dab15b95f44aa593c395bd41775e4486a7d0a0/rfc3161_client-1.0.9-cp39-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:d3cbf1991b6f3457efcb25e1d31179cac556112e6d3e65ec9e0fd70c6e9af90d" },
+    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/c8/57/79bf6a67cd4ca729b0b74e6fa79ebef84e6bc8657b85772df01a7d3b7b89/rfc3161_client-1.0.9-cp39-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:614da494c6f8850c5d6d98c23bc291a4e4dbf2c3c9082d9907fa156f9e4a75c6" },
+    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/11/ae/19139fee184916065705d660bad203b676dc40b449afff36f79818c59c4f/rfc3161_client-1.0.9-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fac3f440a507555e684dc5daba75e33dc08f0f45fdefa48448f19001233a6b21" },
+    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/6e/54/43f89c8e004baade51943261b29f9dd866df3383f4554d5797a2568c2855/rfc3161_client-1.0.9-cp39-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:0ac247d5aa22f3514d1e284bdc547d2ad5f101e1e5d7f6db25db2ab3a0c59f06" },
+    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/2b/b2/938e4df767a2ea6fae2bc8e8e0df52e1d70a32a082a13bdfdd6fac59dc32/rfc3161_client-1.0.9-cp39-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:03be7ac7919c7f4c566076b07773b81b1f1b28d447fa91c6960fb5f82fac5bc1" },
+    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/ff/54/f0193b27f1a635aa336d19b48c296f133719cafb87e950de6eae4638a046/rfc3161_client-1.0.9-cp39-abi3-musllinux_1_2_i686.whl", hash = "sha256:8208999e94e1252e3f5f748f5efe59d3b9c308d04c7626be1becfbf3236c9de4" },
+    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/15/41/6c48b05fc41a424ab3b0cb0515e77046707b498837411633fe7ce77812ee/rfc3161_client-1.0.9-cp39-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:d4cf92f0e784ff02ff5ea1c574f8521f30953dc178092424126dbd8348034f93" },
+    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/d2/18/fcb2f311b0b1754b0476165a4eae2929606007fc0ff0a575a65dbff2c0f6/rfc3161_client-1.0.9-cp39-abi3-win32.whl", hash = "sha256:4d33f5aaec2974239e1c62a79a6fcf32506b09095482377a8b5be3a00fa67dfb" },
+    { url = "https://packages.isotoma.com/pypi/files/rfc3161-client/packages/d2/a1/b71d9f2071660a914e039061d3cdcad77b1cbccf7276bff073f95e8b4d1a/rfc3161_client-1.0.9-cp39-abi3-win_amd64.whl", hash = "sha256:908f6a775da4bdce1d39f825a4431f389542696078ef3e4ed911a068bcaf1792" },
 ]
 
 [[package]]
@@ -2516,4 +2538,46 @@ wheels = [
     { url = "https://packages.isotoma.com/pypi/files/yarl/packages/86/e4/62a06b7e87c4246ac76b7c2da136f972eb4a3a1fc94abb07e7022d6fdb0a/yarl-1.24.5-cp313-cp313-win_amd64.whl", hash = "sha256:2dbe06fc16bc91502bca713704022182e5729861ae00277c3a23354b40929740" },
     { url = "https://packages.isotoma.com/pypi/files/yarl/packages/9e/c9/5fc8025b318ab10db413b61056bd0d95c557a70e8df4210c7511f866329c/yarl-1.24.5-cp313-cp313-win_arm64.whl", hash = "sha256:6b8536851f9f65e7f00c7a1d49ba7f2be0ffe2c11555367fc9f50d9f842410a1" },
     { url = "https://packages.isotoma.com/pypi/files/yarl/packages/61/02/962c1cbfc401a30c1d034dc67ff395f64b52302c6d62de556c1fca99acc0/yarl-1.24.5-py3-none-any.whl", hash = "sha256:a33700d13d9b7d84fd10947b09ff69fb9a792e519c8cb9764a3ca70baa6c23a7" },
+]
+
+[[package]]
+name = "zstandard"
+version = "0.25.0"
+source = { registry = "https://packages.isotoma.com/pypi/simple/" }
+sdist = { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/fd/aa/3e0508d5a5dd96529cdc5a97011299056e14c6505b678fd58938792794b1/zstandard-0.25.0.tar.gz", hash = "sha256:7713e1179d162cf5c7906da876ec2ccb9c3a9dcbdffef0cc7f70c3667a205f0b" }
+wheels = [
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/82/fc/f26eb6ef91ae723a03e16eddb198abcfce2bc5a42e224d44cc8b6765e57e/zstandard-0.25.0-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:7b3c3a3ab9daa3eed242d6ecceead93aebbb8f5f84318d82cee643e019c4b73b" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/aa/1c/d920d64b22f8dd028a8b90e2d756e431a5d86194caa78e3819c7bf53b4b3/zstandard-0.25.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:913cbd31a400febff93b564a23e17c3ed2d56c064006f54efec210d586171c00" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/53/6c/288c3f0bd9fcfe9ca41e2c2fbfd17b2097f6af57b62a81161941f09afa76/zstandard-0.25.0-cp312-cp312-manylinux2010_i686.manylinux2014_i686.manylinux_2_12_i686.manylinux_2_17_i686.whl", hash = "sha256:011d388c76b11a0c165374ce660ce2c8efa8e5d87f34996aa80f9c0816698b64" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/1e/15/efef5a2f204a64bdb5571e6161d49f7ef0fffdbca953a615efbec045f60f/zstandard-0.25.0-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:6dffecc361d079bb48d7caef5d673c88c8988d3d33fb74ab95b7ee6da42652ea" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/b7/37/a6ce629ffdb43959e92e87ebdaeebb5ac81c944b6a75c9c47e300f85abdf/zstandard-0.25.0-cp312-cp312-manylinux2014_ppc64le.manylinux_2_17_ppc64le.whl", hash = "sha256:7149623bba7fdf7e7f24312953bcf73cae103db8cae49f8154dd1eadc8a29ecb" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/e3/79/2bf870b3abeb5c070fe2d670a5a8d1057a8270f125ef7676d29ea900f496/zstandard-0.25.0-cp312-cp312-manylinux2014_s390x.manylinux_2_17_s390x.whl", hash = "sha256:6a573a35693e03cf1d67799fd01b50ff578515a8aeadd4595d2a7fa9f3ec002a" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/53/60/7be26e610767316c028a2cbedb9a3beabdbe33e2182c373f71a1c0b88f36/zstandard-0.25.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:5a56ba0db2d244117ed744dfa8f6f5b366e14148e00de44723413b2f3938a902" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/85/c7/3483ad9ff0662623f3648479b0380d2de5510abf00990468c286c6b04017/zstandard-0.25.0-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:10ef2a79ab8e2974e2075fb984e5b9806c64134810fac21576f0668e7ea19f8f" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/08/b3/206883dd25b8d1591a1caa44b54c2aad84badccf2f1de9e2d60a446f9a25/zstandard-0.25.0-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:aaf21ba8fb76d102b696781bddaa0954b782536446083ae3fdaa6f16b25a1c4b" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/9d/31/76c0779101453e6c117b0ff22565865c54f48f8bd807df2b00c2c404b8e0/zstandard-0.25.0-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:1869da9571d5e94a85a5e8d57e4e8807b175c9e4a6294e3b66fa4efb074d90f6" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/18/e1/97680c664a1bf9a247a280a053d98e251424af51f1b196c6d52f117c9720/zstandard-0.25.0-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:809c5bcb2c67cd0ed81e9229d227d4ca28f82d0f778fc5fea624a9def3963f91" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/1e/73/316e4010de585ac798e154e88fd81bb16afc5c5cb1a72eeb16dd37e8024a/zstandard-0.25.0-cp312-cp312-musllinux_1_2_ppc64le.whl", hash = "sha256:f27662e4f7dbf9f9c12391cb37b4c4c3cb90ffbd3b1fb9284dadbbb8935fa708" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/5b/60/dd0f8cfa8129c5a0ce3ea6b7f70be5b33d2618013a161e1ff26c2b39787c/zstandard-0.25.0-cp312-cp312-musllinux_1_2_s390x.whl", hash = "sha256:99c0c846e6e61718715a3c9437ccc625de26593fea60189567f0118dc9db7512" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/fc/5f/75aafd4b9d11b5407b641b8e41a57864097663699f23e9ad4dbb91dc6bfe/zstandard-0.25.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:474d2596a2dbc241a556e965fb76002c1ce655445e4e3bf38e5477d413165ffa" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/ff/8d/0309daffea4fcac7981021dbf21cdb2e3427a9e76bafbcdbdf5392ff99a4/zstandard-0.25.0-cp312-cp312-win32.whl", hash = "sha256:23ebc8f17a03133b4426bcc04aabd68f8236eb78c3760f12783385171b0fd8bd" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/79/3b/fa54d9015f945330510cb5d0b0501e8253c127cca7ebe8ba46a965df18c5/zstandard-0.25.0-cp312-cp312-win_amd64.whl", hash = "sha256:ffef5a74088f1e09947aecf91011136665152e0b4b359c42be3373897fb39b01" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/ea/6b/8b51697e5319b1f9ac71087b0af9a40d8a6288ff8025c36486e0c12abcc4/zstandard-0.25.0-cp312-cp312-win_arm64.whl", hash = "sha256:181eb40e0b6a29b3cd2849f825e0fa34397f649170673d385f3598ae17cca2e9" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/35/0b/8df9c4ad06af91d39e94fa96cc010a24ac4ef1378d3efab9223cc8593d40/zstandard-0.25.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:ec996f12524f88e151c339688c3897194821d7f03081ab35d31d1e12ec975e94" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/3f/06/9ae96a3e5dcfd119377ba33d4c42a7d89da1efabd5cb3e366b156c45ff4d/zstandard-0.25.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:a1a4ae2dec3993a32247995bdfe367fc3266da832d82f8438c8570f989753de1" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/d9/14/933d27204c2bd404229c69f445862454dcc101cd69ef8c6068f15aaec12c/zstandard-0.25.0-cp313-cp313-manylinux2010_i686.manylinux2014_i686.manylinux_2_12_i686.manylinux_2_17_i686.whl", hash = "sha256:e96594a5537722fdfb79951672a2a63aec5ebfb823e7560586f7484819f2a08f" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/6d/db/ddb11011826ed7db9d0e485d13df79b58586bfdec56e5c84a928a9a78c1c/zstandard-0.25.0-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:bfc4e20784722098822e3eee42b8e576b379ed72cca4a7cb856ae733e62192ea" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/db/00/87466ea3f99599d02a5238498b87bf84a6348290c19571051839ca943777/zstandard-0.25.0-cp313-cp313-manylinux2014_ppc64le.manylinux_2_17_ppc64le.whl", hash = "sha256:457ed498fc58cdc12fc48f7950e02740d4f7ae9493dd4ab2168a47c93c31298e" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/2b/95/fc5531d9c618a679a20ff6c29e2b3ef1d1f4ad66c5e161ae6ff847d102a9/zstandard-0.25.0-cp313-cp313-manylinux2014_s390x.manylinux_2_17_s390x.whl", hash = "sha256:fd7a5004eb1980d3cefe26b2685bcb0b17989901a70a1040d1ac86f1d898c551" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/63/4b/e3678b4e776db00f9f7b2fe58e547e8928ef32727d7a1ff01dea010f3f13/zstandard-0.25.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:8e735494da3db08694d26480f1493ad2cf86e99bdd53e8e9771b2752a5c0246a" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/4e/d5/ba05ed95c6b8ec30bd468dfeab20589f2cf709b5c940483e31d991f2ca58/zstandard-0.25.0-cp313-cp313-musllinux_1_1_aarch64.whl", hash = "sha256:3a39c94ad7866160a4a46d772e43311a743c316942037671beb264e395bdd611" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/50/d5/870aa06b3a76c73eced65c044b92286a3c4e00554005ff51962deef28e28/zstandard-0.25.0-cp313-cp313-musllinux_1_1_x86_64.whl", hash = "sha256:172de1f06947577d3a3005416977cce6168f2261284c02080e7ad0185faeced3" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/5d/35/398dc2ffc89d304d59bc12f0fdd931b4ce455bddf7038a0a67733a25f550/zstandard-0.25.0-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:3c83b0188c852a47cd13ef3bf9209fb0a77fa5374958b8c53aaa699398c6bd7b" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/9a/5c/36ba1e5507d56d2213202ec2b05e8541734af5f2ce378c5d1ceaf4d88dc4/zstandard-0.25.0-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:1673b7199bbe763365b81a4f3252b8e80f44c9e323fc42940dc8843bfeaf9851" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/70/e8/2ec6b6fb7358b2ec0113ae202647ca7c0e9d15b61c005ae5225ad0995df5/zstandard-0.25.0-cp313-cp313-musllinux_1_2_ppc64le.whl", hash = "sha256:0be7622c37c183406f3dbf0cba104118eb16a4ea7359eeb5752f0794882fc250" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/7b/01/b5f4d4dbc59ef193e870495c6f1275f5b2928e01ff5a81fecb22a06e22fb/zstandard-0.25.0-cp313-cp313-musllinux_1_2_s390x.whl", hash = "sha256:5f5e4c2a23ca271c218ac025bd7d635597048b366d6f31f420aaeb715239fc98" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/b2/e5/fbd822d5c6f427cf158316d012c5a12f233473c2f9c5fe5ab1ae5d21f3d8/zstandard-0.25.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:4f187a0bb61b35119d1926aee039524d1f93aaf38a9916b8c4b78ac8514a0aaf" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/8e/e0/69a553d2047f9a2c7347caa225bb3a63b6d7704ad74610cb7823baa08ed7/zstandard-0.25.0-cp313-cp313-win32.whl", hash = "sha256:7030defa83eef3e51ff26f0b7bfb229f0204b66fe18e04359ce3474ac33cbc09" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/d9/82/b9c06c870f3bd8767c201f1edbdf9e8dc34be5b0fbc5682c4f80fe948475/zstandard-0.25.0-cp313-cp313-win_amd64.whl", hash = "sha256:1f830a0dac88719af0ae43b8b2d6aef487d437036468ef3c2ea59c51f9d55fd5" },
+    { url = "https://packages.isotoma.com/pypi/files/zstandard/packages/d4/57/60c3c01243bb81d381c9916e2a6d9e149ab8627c0c7d7abb2d73384b3c0c/zstandard-0.25.0-cp313-cp313-win_arm64.whl", hash = "sha256:85304a43f4d513f5464ceb938aa02c1e78c2943b29f44a750b48b25ac999a049" },
 ]

@@ -41,7 +41,7 @@ spec:
               mountPath: /checkpoints
       containers:
         - name: jeff
-          image: ghcr.io/winjer/jeff:cpu-fallback
+          image: ghcr.io/isotoma/jeff:cpu-fallback
           ports:
             - containerPort: 8000
           env:

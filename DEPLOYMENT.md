@@ -33,13 +33,13 @@ EFS (RWX mount, no download) or a PVC (download once, cached) — see
 
 ## Image
 
-The Docker image is published to `ghcr.io/winjer/jeff` by a GitHub Action
+The Docker image is published to `ghcr.io/isotoma/jeff` by a GitHub Action
 on every push to `cpu-fallback` and on version tags (`v*`).
 
 ```
-ghcr.io/winjer/jeff:cpu-fallback       # branch tag
-ghcr.io/winjer/jeff:sha-<commit>       # commit SHA tag
-ghcr.io/winjer/jeff:1.0.0             # semver tag (on git tag v1.0.0)
+ghcr.io/isotoma/jeff:cpu-fallback       # branch tag
+ghcr.io/isotoma/jeff:sha-<commit>       # commit SHA tag
+ghcr.io/isotoma/jeff:1.0.0             # semver tag (on git tag v1.0.0)
 ```
 
 The image is ~282 MB compressed. It contains only the server dependencies
@@ -124,9 +124,9 @@ Edit `k8s.yaml` and replace:
    ```
 
 3. **Image tag** — in the container spec (default
-   `ghcr.io/winjer/jeff:cpu-fallback`):
+   `ghcr.io/isotoma/jeff:cpu-fallback`):
    ```yaml
-   image: ghcr.io/winjer/jeff:cpu-fallback
+   image: ghcr.io/isotoma/jeff:cpu-fallback
    ```
 
 4. **Namespace** — the manifest assumes `default`. To deploy elsewhere,
