@@ -30,13 +30,9 @@ spec:
             - sh
             - -c
             - |
-              if [ ! -f /checkpoints/jeff-0.8b/decision_config.json ]; then
-                echo "Checkpoint not present, downloading from S3..."
-                aws s3 cp --recursive s3://${S3_BUCKET}/jeff-0.8b/ /checkpoints/jeff-0.8b/
-                echo "Done."
-              else
-                echo "Checkpoint already present, skipping download."
-              fi
+              echo "Downloading checkpoint from S3..."
+              aws s3 cp --recursive s3://${S3_BUCKET}/jeff-0.8b/ /checkpoints/jeff-0.8b/
+              echo "Done."
           env:
             - name: S3_BUCKET
               value: jeff-checkpoints
@@ -81,8 +77,8 @@ spec:
               memory: 6Gi
       volumes:
         - name: checkpoints
-          persistentVolumeClaim:
-            claimName: jeff-checkpoints
+          emptyDir:
+            sizeLimit: 5Gi
 ---
 apiVersion: v1
 kind: Service
@@ -94,14 +90,3 @@ spec:
   ports:
     - port: 8000
       targetPort: 8000
----
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: jeff-checkpoints
-spec:
-  accessModes:
-    - ReadWriteOnce
-  resources:
-    requests:
-      storage: 5Gi
