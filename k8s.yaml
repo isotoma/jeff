@@ -1,0 +1,92 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jeff
+  annotations:
+    # Replace with your IAM role ARN (requires OIDC provider on the cluster)
+    eks.amazonaws.com/role-arn: arn:aws:iam::ACCOUNT_ID:role/jeff-s3-read
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jeff
+  labels:
+    app: jeff
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jeff
+  template:
+    metadata:
+      labels:
+        app: jeff
+    spec:
+      serviceAccountName: jeff
+      initContainers:
+        - name: download-checkpoint
+          image: amazon/aws-cli:latest
+          command:
+            - sh
+            - -c
+            - |
+              echo "Downloading checkpoint from S3..."
+              aws s3 cp --recursive s3://${S3_BUCKET}/jeff-0.8b/ /checkpoints/jeff-0.8b/
+              echo "Done."
+          env:
+            - name: S3_BUCKET
+              value: jeff-checkpoints
+          volumeMounts:
+            - name: checkpoints
+              mountPath: /checkpoints
+      containers:
+        - name: jeff
+          image: ghcr.io/isotoma/jeff:cpu-fallback
+          ports:
+            - containerPort: 8000
+          env:
+            - name: JEFF_CHECKPOINT
+              value: /app/checkpoints/jeff-0.8b
+            - name: JEFF_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: jeff-api-key
+                  key: key
+                  optional: true
+          volumeMounts:
+            - name: checkpoints
+              mountPath: /app/checkpoints
+              readOnly: true
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 30
+            periodSeconds: 30
+          resources:
+            requests:
+              memory: 5Gi
+              cpu: "2"
+            limits:
+              memory: 6Gi
+      volumes:
+        - name: checkpoints
+          emptyDir:
+            sizeLimit: 5Gi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: jeff
+spec:
+  selector:
+    app: jeff
+  ports:
+    - port: 8000
+      targetPort: 8000
